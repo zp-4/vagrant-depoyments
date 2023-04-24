@@ -116,7 +116,7 @@ echo -en """\$TTL	604800
 
 config_resolv(){
 
-echo """echo nameserver 192.168.56.199 > /etc/resolv.conf""" >  ~/.bashrc
+echo """echo nameserver 192.168.56.199 > /etc/resolv.conf""" >>  ~/.bashrc
 }
 
 Config_dns(){
